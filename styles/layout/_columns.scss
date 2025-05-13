@@ -1,0 +1,17 @@
+$columns: 12;
+
+@for $i from 1 through $columns {
+  .col-#{$i} {
+    width: percentage($i / 12);
+  }
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @include respond-above($breakpoint) {
+    @for $i from 1 through $columns {
+      .col-#{$breakpoint}-#{$i} {
+        width: percentage($i / 12);
+      }
+    }
+  }
+}

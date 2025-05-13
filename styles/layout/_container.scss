@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include respond-above(sm) {
+    max-width: 540px;
+  }
+
+  @include respond-above(md) {
+    max-width: 720px;
+  }
+
+  @include respond-above(lg) {
+    max-width: 960px;
+  }
+
+  @include respond-above(xl) {
+    max-width: 1140px;
+  }
+
+  @include respond-above(xxl) {
+    max-width: 1320px;
+  }
+}
