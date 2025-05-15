@@ -18,10 +18,10 @@ $spacers: (
   .mb-#{$key} {
     margin-bottom: $value !important;
   }
-  .ml-#{$key} {
+  .ms-#{$key} {
     margin-left: $value !important;
   }
-  .mr-#{$key} {
+  .me-#{$key} {
     margin-right: $value !important;
   }
   .mx-#{$key} {
@@ -42,10 +42,10 @@ $spacers: (
   .pb-#{$key} {
     padding-bottom: $value !important;
   }
-  .pl-#{$key} {
+  .ps-#{$key} {
     padding-left: $value !important;
   }
-  .pr-#{$key} {
+  .pe-#{$key} {
     padding-right: $value !important;
   }
   .px-#{$key} {

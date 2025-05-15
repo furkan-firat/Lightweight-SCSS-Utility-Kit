@@ -1,0 +1,16 @@
+$inset-values: (0, 25, 50, 75, 100, auto);
+
+@each $val in $inset-values {
+  .top-#{$val} {
+    top: #{$val}px !important;
+  }
+  .left-#{$val} {
+    left: #{$val}px !important;
+  }
+  .right-#{$val} {
+    right: #{$val}px !important;
+  }
+  .bottom-#{$val} {
+    bottom: #{$val}px !important;
+  }
+}
