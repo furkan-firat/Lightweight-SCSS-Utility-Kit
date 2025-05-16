@@ -68,10 +68,9 @@ Build flexible and responsive layouts using utility classes for flexbox:
 - Display: `.d-flex`, `.d-inline-flex`
 - Direction: `.flex-row`, `.flex-column`, `.flex-row-reverse`, `.flex-column-reverse`
 - Wrap: `.flex-wrap`, `.flex-nowrap`, `.flex-wrap-reverse`
-- Justify Content: `.justify-start`, `.justify-center`, `.justify-end`, `.justify-between`, `.justify-around`, `.justify-evenly`
-- Align Items: `.items-start`, `.items-center`, `.items-end`, `.items-baseline`, `.items-stretch`
-- Align Self: `.self-start`, `.self-center`, `.self-end`, `.self-stretch`
-- Align Content: `.content-start`, `.content-center`, `.content-end`, `.content-between`, `.content-around`, `.content-stretch`
+- Justify Content: `.justify-content-start`, `.justify-content-center`, `.justify-content-end`, `.justify-content-between`, `.justify-content-around`, `.justify-content-evenly`
+- Align Items: `.align-items-start`, `.align-items-center`, `.align-items-end`, `.align-items-baseline`, `.align-items-stretch`
+- Align Self: `.align-self-start`, `.align-self-center`, `.align-self-end`, `.align-self-stretch`
 
 ### 🛆 Grid System
 
